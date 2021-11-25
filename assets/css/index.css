@@ -9,16 +9,13 @@
     background: #6C7A89;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
-    gap: 10px 20px; /* row-gap column gap */
-    row-gap: 10px;
-    column-gap: 20px;
+    /*align-items: center;*/
+    flex: auto;
 }
 
 #part-1{
     display: flex;
-    flex-direction: row;
+    flex: auto;
 }
 
 #part-2{
@@ -27,7 +24,6 @@
 
 #part-3{
     display: flex;
-    flex-direction: row-reverse;
 }
 
 #part-4{
